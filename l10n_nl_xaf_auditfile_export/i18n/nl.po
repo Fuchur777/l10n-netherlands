@@ -1,19 +1,20 @@
 # Translation of OpenERP Server.
 # This file contains the translation of the following modules:
-#	* auditfile_export
+# 	* auditfile_export
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 6.1-20120910-233309\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-13 04:19+0000\n"
-"PO-Revision-Date: 2012-11-13 04:19+0000\n"
+"PO-Revision-Date: 2014-11-17 09:43+0100\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. module: auditfile_export
 #: view:auditfile.generate:0
@@ -23,58 +24,58 @@ msgstr "Auditfile"
 #. module: auditfile_export
 #: field:auditfile.generate,period_start:0
 msgid "Start Period"
-msgstr "Start Period"
+msgstr "Start Periode"
 
 #. module: auditfile_export
 #: field:auditfile.generate,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "Naam"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:90
 #, python-format
 msgid "Following companies have no country code: %s"
-msgstr "Following companies have no country code: %s"
+msgstr "De volgende bedrijven hebben geen land code: %s"
 
 #. module: auditfile_export
 #: field:auditfile.generate,period_stop:0
 msgid "Stop Period"
-msgstr "Stop Period"
+msgstr "Eind Periode"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:54
 #: constraint:auditfile.generate:0
 #, python-format
 msgid "Please, check periods"
-msgstr "Please, check periods"
+msgstr "Controleer de periodes"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:45
 #, python-format
 msgid "Invalid build-in template"
-msgstr "Invalid build-in template"
+msgstr "Ongeldige ingebouwde template"
 
 #. module: auditfile_export
 #: model:ir.actions.report.xml,name:auditfile_export.auditfile_report
 msgid "Collection Docket"
-msgstr "Collection Docket"
+msgstr "Innings Formulier"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:77
 #, python-format
 msgid "There are no partners to export"
-msgstr "There are no partners to export"
+msgstr "Er zijn geen partners om te exporteren"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:137
 #, python-format
 msgid "Following transactions have no currency or tax code: %s"
-msgstr "Following transactions have no currency or tax code: %s"
+msgstr "De volgende transacties hebben geen valuta of BTW-code: %s"
 
 #. module: auditfile_export
 #: model:ir.ui.menu,name:auditfile_export.auditfile_menu_mainform
 msgid "Export XML"
-msgstr "Export XML"
+msgstr "Exporteer XML"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:44
@@ -87,13 +88,13 @@ msgstr "Export XML"
 #: code:addons/auditfile_export/auditfile_export.py:236
 #, python-format
 msgid "Data Error"
-msgstr "Data Error"
+msgstr "Data Fout"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:216
 #, python-format
 msgid "Invalid XML schema"
-msgstr "Invalid XML schema"
+msgstr "ongeldig XML schema"
 
 #. module: auditfile_export
 #: field:auditfile.generate,template_content:0
@@ -103,14 +104,14 @@ msgstr "Template"
 #. module: auditfile_export
 #: view:auditfile.generate:0
 msgid "Create Auditfile"
-msgstr "Create Auditfile"
+msgstr "Maak Auditfile"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:223
 #: code:addons/auditfile_export/auditfile_export.py:237
 #, python-format
 msgid "Invalid Data. Please, see logs for details."
-msgstr "Invalid Data. Please, see logs for details."
+msgstr "Ongeldige Data. Bekijk de log bestanden voor details."
 
 #. module: auditfile_export
 #: model:ir.actions.act_window,name:auditfile_export.action_auditfile_form
@@ -120,11 +121,10 @@ msgstr "auditfile"
 #. module: auditfile_export
 #: model:ir.model,name:auditfile_export.model_auditfile_generate
 msgid "Function to generate xml"
-msgstr "Function to generate xml"
+msgstr "Functie om een xml te genereren"
 
 #. module: auditfile_export
 #: code:addons/auditfile_export/auditfile_export.py:124
 #, python-format
 msgid "Following taxes have no tax code: %s"
-msgstr "Following taxes have no tax code: %s"
-
+msgstr "De volgende belastingen hebben nog geen BTW-code: %s"
