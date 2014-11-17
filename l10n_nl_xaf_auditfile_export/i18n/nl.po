@@ -94,7 +94,7 @@ msgstr "Data Fout"
 #: code:addons/auditfile_export/auditfile_export.py:216
 #, python-format
 msgid "Invalid XML schema"
-msgstr "ongeldig XML schema"
+msgstr "Ongeldig XML schema"
 
 #. module: auditfile_export
 #: field:auditfile.generate,template_content:0
